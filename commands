@@ -1,0 +1,3 @@
+npm i -D jest typescript ts-jest ts-node @types/jest
+npx ts-jest config:init -> update jest.config.ts
+handball tsconfig.json file
