@@ -5,6 +5,16 @@ describe("Utils test suite", () => {
         const result = toUpperCase("abc");
         expect(result).toBe("ABC");
     });
+
+    describe("toUpperCase examples", () => {
+        it.each([
+            { input: "abc", expected: "ABC" },
+            { input: "mystring", expected: "MYSTRING" },
+        ])("$input toUpperCase should be $expected", ({ input, expected }) => {
+            const actual = toUpperCase(input);
+            expect(actual).toBe(expected);
+        });
+    });
 });
 
 describe("getStringInfo for arg My-String should", () => {
