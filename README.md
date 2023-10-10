@@ -8,3 +8,4 @@ Jest Hooks
 Jest Aliases
 Code Coverage
 Jest & VSCode configuration
+Jest Doubles: Mocks, Spies, Stubs, Fakes
