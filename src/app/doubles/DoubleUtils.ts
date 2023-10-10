@@ -27,7 +27,7 @@ export function toUpperCaseWithCb(arg: string, callBack: LoggerServiceCallBack) 
         callBack("Invalid argument!");
         return;
     }
-    callBack(`called function with ${arg}`);
+    callBack(`Called function with ${arg}`);
     return arg.toUpperCase();
 }
 
