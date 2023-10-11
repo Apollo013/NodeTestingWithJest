@@ -24,6 +24,7 @@ const config: Config.InitialOptions = {
         `${baseTestDir}/server/**/*test.ts`,
         `${baseTestDir}/tests_with_wrappers/**/*test.ts`,
         `${baseTestDir}/utils/**/*test.ts`,
+        `${baseTestDir}/custom_matchers/**/*test.ts`,
     ],
     setupFiles: ["<rootDir>/src/test/server_app/utils/config.ts"],
 };

@@ -13,3 +13,4 @@ Demonstrates Node/Typescript testing with Jest....
 9. Building Test Wrappers to reduce the use of Mocks
 10. Integration tests
 11. Configuration files
+12. Custom matchers
