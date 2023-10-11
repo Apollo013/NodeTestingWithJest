@@ -17,7 +17,7 @@ const config: Config.InitialOptions = {
     verbose: true,
     collectCoverage: true,
     collectCoverageFrom: [`${baseDir}/**/*.ts`],
-    testMatch: [`${baseTestDir}/**/*.ts`],
+    testMatch: [`${baseTestDir}/**/*test.ts`],
 };
 
 export default config;
