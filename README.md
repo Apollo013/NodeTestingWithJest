@@ -9,7 +9,7 @@
 5. Code Coverage
 6. Jest & VSCode configuration
 7. Jest Doubles: Mocks, Spies, Stubs, Fakes
-8. Testing a Node server application using Mocks & Spies (http, request handlers, http, server, suthentication)
+8. Testing a Node server application using Mocks & Spies (http, request handlers, http, server, authentication)
 9. Building Test Wrappers to reduce the use of Mocks
 10. Integration tests
 11. Configuration files
