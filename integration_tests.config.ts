@@ -17,14 +17,7 @@ const config: Config.InitialOptions = {
     verbose: true,
     collectCoverage: true,
     collectCoverageFrom: [`${baseDir}/**/*.ts`],
-    testMatch: [
-        `${baseTestDir}/auth/**/*test.ts`,
-        `${baseTestDir}/data/**/*test.ts`,
-        `${baseTestDir}/handlers/**/*test.ts`,
-        `${baseTestDir}/server/**/*test.ts`,
-        `${baseTestDir}/tests_with_wrappers/**/*test.ts`,
-        `${baseTestDir}/utils/**/*test.ts`,
-    ],
+    testMatch: [`${baseTestDir}/integration_tests/**/*test.ts`],
     setupFiles: ["<rootDir>/src/test/server_app/utils/config.ts"],
 };
 
